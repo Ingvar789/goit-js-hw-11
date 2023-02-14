@@ -42,8 +42,7 @@ function onLoadMore(e) {
 function filterPictures(pictures) {
     if (pictures.hits.length === 0) {
         Notiflix.Notify.failure('Sorry, there are no images matching your search query. Please try again.');
-        refs.searchInput.innerHTML = '';
-        refs.galerry.innerHTML = '';
+        refs.loadMoreBtn.classList.add('load-more');
     }
     else {
         renderPicturesContainer(pictures);
