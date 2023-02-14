@@ -1,19 +1,67 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "The Last Kingdom",
+      "author": "Bernard Cornwell",
+      "rating": 8.38
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "На березі спокійних вод",
+      "author": "Роберт Шеклі",
+      "rating": 8.51
+    },
+    {
+      "id": 3,
+      "title": "Сон смішної людини",
+      "author": "Федір Достоєвський",
+      "rating": 7.75
+    },
+    {
+      "title": "Angels & Demons",
+      "author": "Dan Brown",
+      "rating": 8.9,
+      "genres": [
+        "detective"
+      ],
+      "id": 7
+    },
+    {
+      "title": "Deception Point ",
+      "author": "Dan Brown",
+      "rating": 8.4,
+      "genres": [
+        "detective"
+      ],
+      "id": 8
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "rating": 8.9,
+      "genres": [
+        "detective"
+      ],
+      "id": 12
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "rating": 8.9,
+      "genres": [
+        "detective"
+      ],
+      "id": 13
+    },
+    {
+      "title": "Inferno",
+      "author": "Dan Brown",
+      "rating": 9,
+      "genres": [
+        "detective"
+      ],
+      "id": 14
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
